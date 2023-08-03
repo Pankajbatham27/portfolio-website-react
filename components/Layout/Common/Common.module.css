@@ -1,0 +1,19 @@
+.titlePage {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    max-width: 160px;
+    justify-content: center;
+    padding: 3px;
+    padding-bottom: 6px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.titlePage p {
+    margin-bottom: 0;
+    margin-left: 9px;
+    position: relative;
+    top: 2px;
+}

@@ -1,0 +1,6 @@
+.introText{
+    font-size: 48px;
+}
+.hoverColorChange:hover h5{
+    color: #61dbfb;
+}

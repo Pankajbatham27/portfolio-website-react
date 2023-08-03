@@ -1,0 +1,49 @@
+.introText {
+    font-size: 58px;
+    color: #fff;
+}
+
+
+.introText small {
+    font-size: 40px;
+}
+
+.introText {
+    line-height: 48px;
+}
+
+.bottomIntro{
+    margin-top: 50px;
+}
+
+.roundImageCover {
+    border: 1px solid #999999;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 12px 17px;
+    
+    position: relative;
+}
+
+.roundImageCover img{
+    animation: rotate 4s linear infinite;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.arrowIcon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}

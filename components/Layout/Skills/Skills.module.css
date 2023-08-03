@@ -1,0 +1,14 @@
+.introText{
+    font-size: 48px;
+}
+.skill {
+    border: 1px solid #999999;
+    padding: 39px 15px;
+    border-radius: 30%;
+}
+.skill:hover{
+    border: 1px solid #61dbfb;
+}
+.skill:hover svg{
+    color: #61dbfb !important;
+}
